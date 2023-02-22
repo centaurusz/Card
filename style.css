@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Josefin+Sans:wght@300;400&family=Nanum+Pen+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    @font-face {
+        font-family: chloe_3;
+        src: url();
+    }
+}
+
+html,
+body {
+    width: 100%;
+    background: #8dcde5;
+}
+
+#main {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tabs {
+    margin: 24px 0;
+    width: 100%;
+    height: auto;
+}
+
+.tabRow a, .tabRow a:hover {
+    text-decoration: none;
+}
+
+.tabRow ul {
+    margin: 0 0 -1px;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.tabContainer {
+    background: #dddd;
+    border: 1px solid silver;
+    max-width: 1200px;
+    border-radius: 65px;
+    height: 520px;
+}
+
+.tabContent {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-list-item {
+    flex: 0 0 calc(33.33% - 16px);
+    border: 0;
+    position: relative;
+    margin: 0 0 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-list-img{
+    overflow: hidden;
+}
+
+.card-list-img img{
+    width: 500px;
+    height: auto;    
+}
+
+.card-list-img h5 {
+    color: #fff;
+}
+
+.card-list-img h5 span {
+    color: #529fae;
+}
